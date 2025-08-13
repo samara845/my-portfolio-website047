@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+}
+
+body{
+
+    width: 100%;
+    background: linear-gradient( 45deg,rgb(17, 5, 238) ,black,black,black,black,black,black,black,black,black, rgb(3, 19, 160) );
+}
+   
+
+    
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 1px;
+    border-color: gold;
+    margin: 100px;
+    margin-left: 170px;
+}
+
+.profile{
+    width: 0%;
+}
+img:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: rgb(8, 0, 255);
+    transition: 1s;
+}
+.info-content{
+   margin-top: -300px;
+   margin-inline-start: 600px;
+
+}
+@keyframes fadeSlide {
+    0% {
+        opacity: 0;
+        transform: translatex(-20px);
+
+    }
+    100%  {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(6, 10, 221);
+    animation: fadeSlide 2s ease-in-out;
+}
+h1,h3{
+    font-size: 50px;
+    font-weight: bolder;
+    font-display: auto;
+}
+h1{
+    color: rgb(254, 252, 251);
+    font-size: 50px;
+    text-align: center;
+     
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 37, 224);
+    height: 50px;
+    width: 850px;
+    margin-left: 18%;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: solid 2px white;
+    border-width: 3px;
+    animation: fadeSlide 1s ease-in-out;
+    position: fixed;
+} 
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 20px;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+li:hover{
+    color: white;
+}
+li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+    .about-me{
+        height: 170px;
+        width: 470px;
+        background-color: transparent;
+        box-shadow: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        border: solid 1px blue;
+        margin-top: 10%;
+        margin-left: 60px;
+         animation: fadeSlide 5s ease-in-out;
+    }
+    .about-me , h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         animation: fadeSlide 5s ease-in-out;
+    }
+
+    .about-me a{
+        text-decoration: none;
+        display: flex;
+        color: antiquewhite;
+    }
+    
+    h2{
+        margin-left: 10px;
+        color: rgb(21, 5, 158);
+    }
+    .courses{
+        height: 300px;
+        width: 1200px;
+        background-color: transparent;
+        margin: 20px;
+        border-radius: 20px;
+        border: solid 1px blue;
+        margin-top: 10%;
+        margin-left: 60px;
+    }
+    .form{
+        height: 500px;
+        width: 600px;
+        background-color: transparent;
+        border-radius: 20px;
+        margin: 20px;
+        border: solid 1px blue;
+        margin-top: 1%;
+        margin-left: 24%;
+    }
+    .h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .title{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    input{
+        width: 300px;
+        height: 30px;
+        border-radius: 30px;
+        margin-left: 80px;
+        margin-top: -40px;
+        margin: 5px;
+    }
+    form{
+        margin: 56px;
+        margin-inline-start: 130px;
+    }
+    button{
+        background-color: blue;
+        width: 70px;
+        height: 30px;
+        border-radius: 30px;
+        margin-inline-start: 30%;
+    }
+    textarea{
+        margin-left: -30px;
+        height: 70px;
+        width: 400px;
+    }
+    
+    .about{
+        height: 1000px;
+        width: 400px;
+        
+        margin: 20px;
+        border-radius: 20px;
+        border: solid 1px blue;
+        margin-top: 10%;
+        margin-left: 60px;
+    }
+    footer{
+        background-color: black;
+        height: 300px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        margin-left: 100px;
+    }
+    .para{
+        margin-left: 150px;
+    }
+    .font-semibold{
+        color: aliceblue;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .hover:text-gray-400{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    h5{
+        margin-left: 20px;
+    }
+    
+    @keyframes fadeSlide {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+    
+        }
+        100%  {
+            opacity: 1;
+            transform: translateY(0);
+    
+        }
+    }
+    
+.source-code , h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         animation: fadeSlide 5s ease-in-out;
+}
+.source-code{
+        height: 170px;
+        width: 470px;
+        background-color: transparent;
+        box-shadow: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        border: solid 1px blue;
+        margin-top: -14%;
+        margin-left: 57%;
+         animation: fadeSlide 5s ease-in-out;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+    body {
+        background: linear-gradient( 45deg,rgb(17, 5, 238) ,black,black,black, rgb(3, 19, 160) );
+    }
+
+    nav {
+        width: 95%;
+        margin-left: 2.5%;
+        height: auto;
+        flex-wrap: wrap;
+        position: static;
+    }
+
+    li {
+        padding: 10px;
+        font-size: medium;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .info-content {
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-me,
+    .courses,
+    .form,
+    .about,
+    .source-code {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+    }
+
+    .form form {
+        margin: 20px;
+        margin-inline-start: 0;
+    }
+
+    input, textarea {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    button {
+        margin: 10px auto;
+        display: block;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    p, .para, .font-semibold {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .profile{
+        margin-left: 110px;
+    }
+}
