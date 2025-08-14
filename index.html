@@ -126,6 +126,33 @@
                             </div>
                         </footer>
                 
+                        <script>
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const data = {
+        name: form.querySelector('input[type="text"]').value,
+        email: form.querySelector('input[type="email"]').value,
+        phone: form.querySelector('input[type="number"]').value,
+        topic: form.querySelector('select').value,
+        message: form.querySelector('textarea').value
+    };
+
+    fetch("https://script.google.com/macros/s/AKfycbwcByCjKVnEfL6pKI3xerwGI7gogCVcspcfck638Vt16gwdrmV1bvob6_1zdOZEKEtNuQ/exec", {
+        method: "POST",
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(response => {
+        alert("Form submitted successfully!");
+        form.reset();
+    })
+    .catch(err => console.error(err));
+});
+</script>
+
                
                 </body>
                 </html>

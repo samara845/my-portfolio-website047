@@ -224,6 +224,9 @@ li a{
     h5{
         margin-left: 20px;
     }
+    h4{
+        color: white;
+    }
     
     @keyframes fadeSlide {
         0% {
@@ -327,6 +330,9 @@ li a{
         margin-top: 10px;
     }
     .profile{
-        margin-left: 110px;
+        margin-left: 95px;
+    }
+    h4{
+        color: white;
     }
 }
