@@ -128,7 +128,7 @@ li a{
     
     h2{
         margin-left: 10px;
-        color: rgb(21, 5, 158);
+        color: rgb(29, 4, 253);
     }
     .courses{
         height: 300px;
@@ -156,6 +156,7 @@ li a{
         justify-content: center;
         margin-right: 20px;
         margin-top: 10px;
+        color: rgb(21, 21, 238);
     }
     .title{
         margin-top: 40px;
@@ -254,7 +255,7 @@ li a{
         box-shadow: 20px;
         margin: 20px;
         border-radius: 20px;
-        border: solid 1px blue;
+        border: solid 1px rgb(10, 10, 238);
         margin-top: -14%;
         margin-left: 57%;
          animation: fadeSlide 5s ease-in-out;
