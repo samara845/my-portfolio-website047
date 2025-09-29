@@ -9,13 +9,14 @@
     <link rel="icon" type="png" href="C:\Users\samar\Documents\Sam logo.jpg">
 </head>
 <body> 
-        <nav>
+        <div id="home">
+            <nav>
             <h1>My Portfolio</h1>
             <ul>
-                <li> Home</li>
+                <li><a href="#home">Home</a></li>
               <li><a href="project1.html"> Projects</a></li>  
                 <!-- <li>Courses</li> -->
-                <li> <a href="#form"></a>Contact me</li>
+                <li><a href="#contact">Contact me</a></li>
                 <li><a href="#about">About me</a></li>
             </ul>
         </nav>
@@ -28,6 +29,7 @@
                     <h3 class="title" > Web Developer <br>(Frontend Developer)</h3>
                     <p></p>
                 </div></div>
+        </div>
                 <br>
                 <br>
                 <div class="about-me">
@@ -39,7 +41,9 @@
                      -->
                 </div>
                 <div class="source-code">
-                    <h1>SOURCE CODE</h1>
+                    <a href="source.html">
+                        <h1>SOURCE CODE</h1>
+                    </a>
                 </div>
                 <br>
                 <br>
@@ -83,11 +87,11 @@
                 <br>
                 <br>
                 <br>
-                    <div class="title"
-                    ><h2>Contact Me...</h2></div>
+                    <div id="contact">
+                        <div class="title" ><h2>Contact Me...</h2></div>
                 <div class="form">
                     <div class="h2"><h2>Contact Form</h2></div>
-                    <form action="" id="form">
+                    <form action="">
                        <h4> Name:-</h4> <input type="text">
                         <br>
                         <br>
@@ -117,6 +121,7 @@
                     <br>
                     
                 </div>
+                    </div>
                 <br>
                 <hr>
 
@@ -130,13 +135,13 @@
                                     <p>© 2025 My Portfolio. All rights reserved.</p>
                                 </div>
                                 <div className="space-y-2">
-                                    <h2 className="font-semibold">Quick Links</h2>
+                                    <h2 class="font-semibold">Quick Links</h2>
                                     <ul class="space-y-1">
-                                        <li><a href="#home" class="hover:text-gray-400">Home</a></li>
-                                        <li><a href="#projects" class="hover:text-gray-400">Projects</a></li>
-                                        <li><a href="#courses" class="hover:text-gray-400">Courses</a></li>
-                                        <li><a href="#contact" class="hover:text-gray-400">Contact Me</a></li>
-                                        <li><a href="#about" class="hover:text-gray-400">About Me</a></li>
+                                        <li><a href="#home" class="footerlink">Home</a></li>
+                                        <li><a href="project1.html" class="footerlink">Projects</a></li>
+                                        <!-- <li><a href="#courses" class="footerlink">Courses</a></li> -->
+                                        <li><a href="#contact" class="footerlink">Contact Me</a></li>
+                                        <li><a href="#about" class="footerlink">About Me</a></li>
                                     </ul>
                                 </div>
                                 <div className="space-y-2">
