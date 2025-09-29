@@ -125,6 +125,14 @@ li a{
         display: flex;
         color: antiquewhite;
     }
+    h5{
+        color: white;
+        margin-top: -45px;
+        font-size: large;
+        font-weight: bold;
+        font-variant: small-caps;
+        
+    }
     
     h2{
         margin-left: 10px;
@@ -188,14 +196,24 @@ li a{
     }
     
     .about{
-        height: 1000px;
-        width: 400px;
-        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        height: 500px;
+        width: 1100px;
         margin: 20px;
         border-radius: 20px;
         border: solid 1px blue;
-        margin-top: 10%;
+        margin-top: 4%;
         margin-left: 60px;
+    }
+    #sam{
+        border-radius: 0px;
+        border: none;
+        height: 400px;
+    margin-top: 7%;
+    margin-left: 10px;
+
     }
     footer{
         background-color: black;
@@ -301,6 +319,23 @@ li a{
         width: 90%;
         margin: 20px auto;
         height: auto;
+    }
+.about {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #sam {
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .about h5 {
+        font-size: 1rem;
+        margin-top: 10px;
     }
 
     .form form {
